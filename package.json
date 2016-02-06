@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.2",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "webpack": "^1.12.13"
+  },
+  "dependencies": {
+    "redux": "^3.3.0",
+    "react-redux": "^4.4.0"
+  }
+}
