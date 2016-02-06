@@ -1,2 +1,3 @@
-# reactjs-workflow
-My workflow with ReactJS
+# ReactJS Workflow
+
+> My workflow with ReactJS
