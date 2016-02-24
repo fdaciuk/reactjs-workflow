@@ -1,10 +1,12 @@
 'use strict';
 
+const path = require('path');
+
 module.exports = {
-  entry: './src/js/main.js',
+  entry: path.join('.', 'src', 'js', 'main.js'),
   output: {
     filename: 'main.min.js',
-    path: __dirname + '/public/js'
+    path: path.join(__dirname, 'public', 'js')
   },
   devtool: 'source-map',
   module: {
