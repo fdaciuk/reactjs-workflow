@@ -1,12 +1,12 @@
-'use strict';
+'use strict'
 
-const path = require('path');
+const path = require('path')
 
 module.exports = {
-  entry: path.join('.', 'src', 'js', 'main.js'),
+  entry: path.resolve('.', 'src', 'js', 'main.js'),
   output: {
     filename: 'main.min.js',
-    path: path.join(__dirname, 'public', 'js')
+    path: path.resolve('.', 'public', 'js')
   },
   devtool: 'source-map',
   module: {
@@ -16,4 +16,4 @@ module.exports = {
       loader: 'babel'
     }]
   }
-};
+}
