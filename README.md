@@ -2,9 +2,7 @@
 
 > My workflow with ReactJS
 
-## Todo
-
-* [ ] Add JSPM
+# DEPRECATED - Use this instead: https://github.com/fdaciuk/workflow-reactjs
 
 ## License
 
